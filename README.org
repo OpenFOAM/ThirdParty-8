@@ -1,11 +1,11 @@
 #                            -*- mode: org; -*-
 #
-#+TITLE:              OpenFOAM-dev Third-Party packages
+#+TITLE:              OpenFOAM-8 Third-Party packages
 #+AUTHOR:                  The OpenFOAM Foundation
-#+DATE:                       5th July 2019
+#+DATE:                     22nd July 2020
 #+LINK:                     http://www.openfoam.org
 #+OPTIONS: author:nil ^:{}
-# Copyright (c) 2014-2018 OpenFOAM Foundation.
+# Copyright (c) 2014-2020 OpenFOAM Foundation.
 
 * Description
   Scripts for building third-party packages.
@@ -30,7 +30,7 @@
             https://ftp.gnu.org/gnu/mpc/mpc-1.0.1.tar.gz
 *** Parallel Processing
 ***** Scotch
-      Scotch-6.0.9 is provided with ThirdParty-dev or the original source pack
+      Scotch-6.0.9 is provided with ThirdParty-8 or the original source pack
       may be obtained from:
       + Scotch/PtScotch: https://gforge.inria.fr/frs/download.php/file/38187/scotch_6.0.9.tar.gz
 ***** OpenMPI
@@ -49,7 +49,7 @@
     + wmRefresh
 *** CGAL
     + CGAL        https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-5.0.2/CGAL-5.0.2.tar.xz
-    + boost       https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.bz2/download
+    + boost       https://sourceforge.net/projects/boost/files/boost/1.72.0/boost_1_72_0.tar.bz2/download
 *** Miscellaneous
     + libccmio    https://portal.nersc.gov/svn/visit/trunk/third_party/libccmio-2.6.1.tar.gz
 
